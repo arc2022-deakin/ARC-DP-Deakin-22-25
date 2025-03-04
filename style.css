@@ -12,6 +12,10 @@ html, body {
     font-family: 'Open Sans', sans-serif;
     background: linear-gradient(134deg, #00425e 0%, #001a3f 43%, #421438 77%);
     color: white;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .page-wrapper {
