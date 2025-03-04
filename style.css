@@ -141,6 +141,10 @@ main.content-area {
     color: #f8d774;
 }
 
+.project-box p {
+    color: #e0e0e0;
+    font-size: 14px;
+}
 
 .team-grid {
     display: grid;
