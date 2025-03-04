@@ -30,6 +30,11 @@ header {
     flex-shrink: 0;
 }
 
+.header-left img {
+    height: 50px;  /* Adjust to fit nicely in the header */
+    width: auto;
+}
+
 .header-left a {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
