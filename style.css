@@ -123,7 +123,7 @@ main.content-area {
 }
 
 .project-box {
-    background: rgba(255, 255, 255, 0.15);
+    background: rgba(255, 255, 255, 0.2);
     border-radius: 8px;
     padding: 20px;
     line-height: 1.8;
