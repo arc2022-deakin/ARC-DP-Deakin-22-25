@@ -59,6 +59,7 @@ header {
     margin-bottom: 10px;
     color: #f8d774;
     font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
 
 nav.tabs {
@@ -122,19 +123,19 @@ main.content-area {
 }
 
 .project-box {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.15);
     border-radius: 8px;
     padding: 20px;
     line-height: 1.8;
     color: #e0e0e0;
-    font-size: 12px;
+    font-size: 14px;
     text-align: justify;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(8px);
 }
 
 .project-box h3 {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 10px;
     font-weight: bold;
     color: #f8d774;
@@ -181,12 +182,14 @@ main.content-area {
     font-size: 12px;
     margin: 5px 0;
     color: #e0e0e0;
+    text-align: center;
 }
 
 .member a {
     color: #4a90e2;
     text-decoration: none;
     font-weight: bold;
+    text-align: center;
 }
 
 .member a:hover {
