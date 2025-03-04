@@ -31,7 +31,7 @@ header {
 }
 
 .header-left img {
-    height: 50px;  /* Adjust to fit nicely in the header */
+    height: 20px;  /* Adjust to fit nicely in the header */
     width: auto;
 }
 
