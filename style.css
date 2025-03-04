@@ -8,7 +8,7 @@
 
 html, body {
     height: 100%;
-    overflow: hidden; /* Disable entire page scroll */
+    overflow: hidden;
     font-family: 'Open Sans', sans-serif;
     background: linear-gradient(134deg, #00425e 0%, #001a3f 43%, #421438 77%);
     color: white;
@@ -73,7 +73,6 @@ main.content-area {
     padding: 20px;
 }
 
-/* Content Area */
 .tab-content {
     padding: 20px;
     background: rgba(255, 255, 255, 0.15);
@@ -94,7 +93,6 @@ main.content-area {
     line-height: 1.6;
 }
 
-/* Team Grid */
 .team-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -103,7 +101,7 @@ main.content-area {
 
 .ci-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);  /* Exactly 3 columns */
+    grid-template-columns: repeat(3, 1fr);
     gap: 15px;
     margin-bottom: 20px;
 }
@@ -121,6 +119,30 @@ main.content-area {
     padding: 15px;
     text-align: center;
     font-size: 14px;
+    line-height: 1.6;
+}
+
+.member h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    color: white;
+}
+
+.member p {
+    font-size: 12px;
+    margin: 5px 0;
+    color: #e0e0e0;
+}
+
+.member a {
+    color: #4a90e2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.member a:hover {
+    text-decoration: underline;
 }
 
 .member img {
