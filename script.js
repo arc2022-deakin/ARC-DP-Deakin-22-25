@@ -6,5 +6,9 @@ function showTab(tabId) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    showTab('project');  // Default to first tab
+    showTab('project');
+});
+
+document.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
 });
