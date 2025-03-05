@@ -161,8 +161,6 @@ main.content-area {
     font-size: 14px;
     line-height: 1.6;
     width: 100%;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(8px);
 }
 
 .publication-card h3 {
