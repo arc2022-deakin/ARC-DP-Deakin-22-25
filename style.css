@@ -59,11 +59,30 @@ header {
     color: #f8d774;
 }
 
+.header-right {
+    display: flex;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 8px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
 .header-right img {
     height: 85px;
     width: auto;
+    object-fit: contain;
+    background-color: white;
+    padding: 5px;
+    border-radius: 4px;
 }
 
+.logo-separator {
+    height: 60px;
+    width: 1px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
 .section-heading {
     font-size: 18px;
     font-weight: bold;
