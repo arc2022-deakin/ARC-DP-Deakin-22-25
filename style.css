@@ -74,14 +74,13 @@ header {
     width: auto;
     object-fit: contain;
     background-color: white;
-    padding: 5px;
-    border-radius: 4px;
+    border-radius: 0;
 }
 
 .logo-separator {
     height: 60px;
     width: 1px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.15);
 }
 .section-heading {
     font-size: 18px;
