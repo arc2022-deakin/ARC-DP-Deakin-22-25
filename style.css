@@ -355,3 +355,81 @@ footer {
 .hidden {
     display: none;
 }
+
+/* Key Events Layout */
+.timeline {
+    margin: 20px 0;
+    padding-left: 20px;
+    border-left: 3px solid #f8d774;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 25px;
+    padding-left: 20px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.6s ease-out;
+}
+
+.timeline-item.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.timeline-icon {
+    position: absolute;
+    left: -28px;
+    top: 0;
+    font-size: 18px;
+    color: #f8d774;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+}
+
+.timeline-content {
+    font-size: 13px;
+    color: #e0e0e0;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px;
+    border-radius: 8px;
+    line-height: 1.6;
+}
+
+.timeline-content a {
+    color: #4a90e2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.timeline-content a:hover {
+    text-decoration: underline;
+}
+
+.year-toggle {
+    display: block;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.15);
+    color: #f8d774;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px 15px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.year-toggle:hover {
+    background: rgba(255, 255, 255, 0.25);
+}
+
+.year-group {
+    margin-left: 10px;
+}
+
