@@ -465,6 +465,7 @@ footer {
 .role-lead {
     background-color: #f8d774;
     color: #1a1a1a;
+    font-weight: 600;
 }
 
 .role-former {
