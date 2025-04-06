@@ -511,3 +511,23 @@ footer {
         top: 110%;
     }
 }
+
+.role-badge.role-former-postdoc {
+    background-color: #a0aec0;
+    color: white;
+}
+
+.role-badge.role-current-postdoc {
+    background-color: #38b2ac;
+    color: white;
+}
+
+.role-badge.role-ci {
+    background-color: #5a67d8;
+    color: white;
+}
+
+.role-badge.role-phd {
+    background-color: #9f7aea;
+    color: white;
+}
