@@ -478,7 +478,7 @@ footer {
 }
 
 .role-badge::after {
-    content: attr(title);
+    content: attr(data-tooltip);
     position: absolute;
     background: rgba(0, 0, 0, 0.8);
     color: white;
