@@ -433,6 +433,21 @@ footer {
     margin-left: 10px;
 }
 
+.timeline-icon.with-person {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.person-icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #f8d774;
+}
+
+
 /*Role Badges*/
 .role-badge {
     position: absolute;
