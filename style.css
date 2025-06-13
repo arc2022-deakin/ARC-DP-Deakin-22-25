@@ -111,7 +111,7 @@ nav.tabs button {
     cursor: pointer;
     transition: background 0.3s;
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 nav.tabs button.active {
