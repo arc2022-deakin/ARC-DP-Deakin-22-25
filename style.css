@@ -111,6 +111,13 @@ nav.tabs button {
     cursor: pointer;
     transition: background 0.3s;
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+nav.tabs button.active {
+    background: rgba(255, 255, 255, 0.3);
+    color: #f8d774;
+    border-bottom: 3px solid #f8d774;
 }
 
 nav.tabs button:hover {
