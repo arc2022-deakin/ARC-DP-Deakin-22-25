@@ -13,18 +13,20 @@ document.addEventListener('contextmenu', function(e) {
     e.preventDefault();
 });
 
-const tabButtons = document.querySelectorAll('nav.tabs button');
-const tabContents = document.querySelectorAll('.tab-content');
+function showTab(tabId) {
+    const tabs = document.querySelectorAll('.tab-content');
+    const buttons = document.querySelectorAll('nav.tabs button');
 
-tabButtons.forEach((btn, index) => {
-  btn.addEventListener('click', () => {
-    // Remove active class from all buttons
-    tabButtons.forEach(b => b.classList.remove('active'));
-    // Hide all tab contents
-    tabContents.forEach(c => c.classList.add('hidden'));
+    // Hide all sections
+    tabs.forEach(tab => tab.classList.add('hidden'));
 
-    // Activate the clicked tab and its content
-    btn.classList.add('active');
-    tabContents[index].classList.remove('hidden');
-  });
-});
+    // Remove 'active' class from all buttons
+    buttons.forEach(btn => btn.classList.remove('active'));
+
+    // Show the selected tab
+    document.getElementById(tabId).classList.remove('hidden');
+
+    // Add 'active' class to the clicked button
+    const index = ['project', 'github', 'publications', 'news', 'team'].indexOf(tabId);
+    if (index !== -1) buttons[index].classList.add('active');
+}
