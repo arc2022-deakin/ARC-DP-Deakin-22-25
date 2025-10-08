@@ -59,14 +59,8 @@ header {
     color: white;
 }
 
-.white-bar {
-  color: white;
-}
-
-.highlight {
-  color: #f8d774;
-  font-weight: 600;
-}
+.header-left .main-title .bar { color: #fff !important; }
+.header-left .sub-title .imaco { color: #f8d774 !important; font-weight: 600; }
 
 .header-right {
     display: flex;
